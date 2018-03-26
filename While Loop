@@ -1,0 +1,15 @@
+#while loop
+
+x=0
+
+while x<10:
+	print(x,end=' ')
+	x=x+1
+print()
+print("Final Value of x:",x)
+
+##>>> 
+##=================== RESTART: E:/Python Codes/While loop.py ===================
+##0 1 2 3 4 5 6 7 8 9 
+##Final Value of x: 10
+##>>> 
