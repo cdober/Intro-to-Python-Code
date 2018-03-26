@@ -1,0 +1,23 @@
+class Student:
+
+    def __init__(self, name):
+
+        self.__name=name
+        self.__store=[]
+
+    def enterScore(self):
+
+        for i in range(3):
+            s=int(input("Enter a test score: "))
+            self.__store.append(s)
+
+    def displayScore(self):
+
+        print(self.__name,'got',self.__store)
+
+
+s1=Student('Name')
+
+s1.enterScore()
+
+s1.displayScore()
