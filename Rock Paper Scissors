@@ -1,0 +1,131 @@
+import random
+computer=random.randint(0,2)
+rock=0
+paper=1
+scissors=2
+player=(input("Enter rock, paper, or scissors "))
+count=0
+while count <= 2 and count >= -2:
+    if computer == rock:
+        if player == 0:
+            print("Draw")
+        elif player == 1:
+            print("Win")
+            count=count+1
+        elif player == 2:
+            print("Lose")
+            count=count-1
+    if computer == paper:
+        if player == 0:
+            print("Lose")
+            count=count-1
+        elif player == 1:
+            print("Draw")
+        elif player == 2:
+            print("Win")
+            count=count+1
+    if computer == scissors:
+        if player == 0:
+            print("Win")
+            count=count+1
+        elif player == 1:
+            print("Lose")
+            count=count-1
+        elif player == 2:
+            print("Draw")
+    if count <= 2 and count >= -2:
+        player=(input("Enter rock, paper, or scissors "))
+        computer=random.randint(0,2)
+        rock=0
+        paper=1
+        scissors=2
+
+if count > 2:
+    print("You win the game")
+elif count < -2:
+    print("You lose the game")
+
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Lose
+##Enter 0 for rock, 1 for paper, or 2 for scissors
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors3
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Lose
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Lose
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Lose
+##You lose the game
+##Enter 0 for rock, 1 for paper, or 2 for scissors
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##>>> 
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Lose
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Lose
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors0
+##You win the game
+##>>> 
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Win
+##Win
+##Win
+##You win the game
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##>>> 
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Lose
+##Lose
+##Lose
+##You lose the game
+##Enter 0 for rock, 1 for paper, or 2 for scissors
+##============== RESTART: E:/Python Codes/Rock Paper Scissors.py ==============
+##Enter 0 for rock, 1 for paper, or 2 for scissors2
+##Draw
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##Win
+##Enter 0 for rock, 1 for paper, or 2 for scissors1
+##Win
+##You win the game
+##>>> 
